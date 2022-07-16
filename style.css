@@ -110,7 +110,7 @@ header {
   padding: 85px 0;
 
 }
-.advenchery__list {
+.advenchery__list, .up__row, .down__row {
   display: flex;
   justify-content: space-between;
 
@@ -126,5 +126,51 @@ header {
   height: 68px;
   width: 60px;
 
+
+}
+
+.up__text {
+  max-width: 454px;
+
+}
+.up__text h2, .down__row h2  {
+font-weight: 700;
+font-size: 24px;
+line-height: 27px;
+margin-bottom: 44px;
+}
+
+.moon__vacation {
+
+  padding-top: 80px;
+  padding-bottom: 122px;
+}
+
+.recomendation__left {
+
+  max-width: 460px;
+}
+
+.recomendation__right {
+
+  max-width: 454px;
+
+}
+
+.down__row {
+
+  margin-top: 52px;
+}
+
+.down__row li img {
+  
+  margin-right: 23px;  
+}
+
+.recomendation__list {
+  flex-direction: column;
+  display: flex;
+  gap:  40px;
+  
 
 }

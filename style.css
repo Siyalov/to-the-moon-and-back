@@ -1,14 +1,88 @@
 
+*{ 
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+
+}
+
+
+.wrapper {
+  padding: 0 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+  }
+
+header {
+  background: #222222;
+  color: white;
+  padding-top: 54px;
+
+}
 
 
 
+.menu__left, .site__menu, .main__nav, .contact__menu, .about__us {
+  display: flex;
+  align-items: center;
+
+}
+
+.main__nav, .about__us {  
+  justify-content: space-between;
+
+}
+
+.menu__left {
+  gap: 62px;
 
 
+}
 
+.site__menu {
 
+  gap: 30px;
+}
 
-button {
-   background: #222222;
+.contact__menu {
+
+  gap: 24px;
+}
+
+.about__us {
+  margin-top: 26px;
+  
+}
+.about__block {
+  max-width: 227px; 
+
+}
+.about__block h1 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 51px;
+}
+.about__block p {  
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: 30px;
+  margin-bottom: 54px;
+
+}
+
+.btn  {
+  
    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
    border-radius: 25px;
    width: 215px;
@@ -18,3 +92,12 @@ button {
    justify-content: space-between;
  }
  
+ .btn__black  {
+  background: #222222;
+  
+}
+
+.btn__yellow  {
+  
+  
+}

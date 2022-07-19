@@ -144,56 +144,62 @@
                       </li>
                 
                 </ul>
-              </div>
+              
+               </div>
             </div>
-
-
           </section>
-        <div class="wrapper">
-          <h3>
-            Готовы открыть для себя что-то новое?
-          </h3>
-          <p>Отправьте заявку, заполнив форму справа,
-            мы рассмотрим вашу кандидатуру и свяжемся
-            с вами в течении 24 часов.
-          </p>
 
-          <div class="form_block>
-            
-                <form action="mailto:space@mail.start" class="vacation-reqest-form">
 
-                  <p class="form_politic_text"> Согласен(а) наобработку персональных данных    </p> 
-                
+        <section class="form__section">
+          <div class="wrapper form__wrapper">
+            <div class="form_description">
+              <h3>
+                Готовы открыть для себя что-то новое?
+              </h3>
+              <p>Отправьте заявку, заполнив форму справа,
+                мы рассмотрим вашу кандидатуру и свяжемся
+                с вами в течении 24 часов.
+              </p>
+            </div>
+            <div class="form_block">
+              
+                  <form action="mailto:space@mail.start" class="vacation-reqest-form">                
+                                        
+
+                    <div>
+                        
+                        <input class="input__field" type="text" id="name" name="name" placeholder="ФИО">
+                    </div>
+                    <div>
+                        
+                        <input class="input__field" type="tel" id="phone" name="phone" placeholder="Контактный телефон">
+                    </div>
+                      <div class="field">
+                        <div class="half-field">
+                          
+                          <input type="text" id="height" name="height" placeholder="Рост">
+                        </div>
+                        <div class="half-field">
+                          
+                          <input type="text" id="weight" name="weight" placeholder="Вес">
+                        </div>
+                      </div>
+                    <div> 
+                        <input type="checkbox" id="adreement" name="adreement">
+                        <label for="adreement">Согласен(а) наобработку персональных данных</label>
+                    </div>
                     <button class="btn btn__black">
                       ОТПРАВИТЬ
                       <img src="img/arrow.png" alt="" />
                     </button> 
-
-                    <div>
-                      <label for="name" class="hidden">ФИО</label>
-                      <input type="text" id="name" name="name" placeholder="ФИО">
-                  </div>
-                  <div>
-                      <label for="phone" class="hidden">Контактный телефон</label>
-                      <input type="tel" id="phone" name="phone" placeholder="Контактный телефон">
-                  </div>
-                  <div class="half-field">
-                      <label for="height" class="hidden">Рост</label>
-                      <input type="text" id="height" name="height" placeholder="Рост">
-                  </div>
-                  <div class="half-field">
-                      <label for="weight" class="hidden">Вес</label>
-                      <input type="text" id="weight" name="weight" placeholder="Вес">
-                  </div>
-                  <div> 
-                      <input type="checkbox" id="adreement" name="adreement">
-                      <label for="adreement">Согласен(а) наобработку персональных данных</label>
-                  </div>
-              </form>
+                </form>
             </div>
+          </div>  
+        </section>
 
 
-             <div class="flight__schedule">
+
+             <div class="flight__schedule" style="display: none;">
               <h4>
                 Расписание полетов
               </h4>
@@ -203,7 +209,7 @@
               </p>
     
 
-              <table border="1" width="600">
+              <table border="1" width="600" style="display: none">
                 <tr>
                   <th>№ Рейса</th>
                   <th>Откуда-куда</th>
@@ -224,28 +230,14 @@
                 </tr>
                 
               </table>
-         </div>
-
-
-
-
-
-
-        </div>
-
+         </div>   
 
         
-        
-
-
-
-
-
 
       </main>       
     
 
-    <footer>
+    <footer style="display: none;">
       <div class="wrapper">
           <a href="#" class="logo">
             <img src="img/logo.svg" alt="">

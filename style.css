@@ -49,14 +49,18 @@ header {
   gap: 30px;
 }
 
-/* .site__menu a {
-  transform: scale(1.1);
-  transition: 3s;
+.site__menu a {
+  transition: 1s;
+}
+
+.site__menu a:hover {
+  transform: scale(1.5);
+  
 }
 
 .contact__menu a:active {  
   color: rgb(36, 181, 154);
-} */
+} 
 
 .contact__menu {
   gap: 24px;
@@ -162,4 +166,49 @@ margin-bottom: 44px;
   flex-direction: column;
   display: flex;
   gap:  40px;
+}
+
+.form__section {
+  padding: 90px 0;
+  background: #F0F0F0;
+}
+
+.form_description {
+
+  max-width: 339px; 
+  flex-direction: column;
+  display: flex;
+  gap: 60px;
+}
+
+.form__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form_block input {
+  padding: 16px 23px;
+  border: none;
+}
+
+.input__field {
+  width: 440px;
+}
+
+.field {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form__section h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 27px;
 }

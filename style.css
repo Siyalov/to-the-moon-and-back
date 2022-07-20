@@ -212,3 +212,58 @@ form {
   font-size: 24px;
   line-height: 27px;
 }
+
+.flight__schedule {
+  padding: 90px 0;
+  background: #222222;
+}
+
+.flight__wrapper {
+  
+  justify-content: space-between;
+}
+
+.flight__menu {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px; 
+}
+
+.flight__menu h4 {
+  font-size: 24px;
+  line-height: 27px;  
+  color: #FECA30;
+}
+
+.flight__menu p {
+  color: #D4D4D4;
+  max-width: 467px;
+}
+
+.table__flight {
+  color: #F0F0F0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.table__header {
+  background-color: black;
+}
+
+.table__row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 16px;  
+}
+
+.table__row div {
+  min-width: 110px;
+  
+}
+
+.table__row:not(:first-child) {
+  border-bottom: #555555 1px solid;
+}

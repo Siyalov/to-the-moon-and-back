@@ -161,28 +161,21 @@
                 с вами в течении 24 часов.
               </p>
             </div>
-            <div class="form_block">
-              
-                  <form action="mailto:space@mail.start" class="vacation-reqest-form">                
-                                        
-
-                    <div>
-                        
-                        <input class="input__field" type="text" id="name" name="name" placeholder="ФИО">
-                    </div>
-                    <div>
-                        
-                        <input class="input__field" type="tel" id="phone" name="phone" placeholder="Контактный телефон">
-                    </div>
+            <div class="form_block">              
+                  <form action="mailto:space@mail.start" class="vacation__request_form">                                       
+                       <div>
+                         <input class="input__field" type="text" id="name" name="name" placeholder="ФИО">
+                       </div>
+                       <div>
+                          <input class="input__field" type="tel" id="phone" name="phone" placeholder="Контактный телефон">
+                      </div>
                       <div class="field">
-                        <div class="half-field">
-                          
-                          <input type="text" id="height" name="height" placeholder="Рост">
-                        </div>
-                        <div class="half-field">
-                          
-                          <input type="text" id="weight" name="weight" placeholder="Вес">
-                        </div>
+                          <div class="half-field">
+                              <input type="text" id="height" name="height" placeholder="Рост">
+                          </div>
+                          <div class="half-field">
+                              <input type="text" id="weight" name="weight" placeholder="Вес">
+                          </div>
                       </div>
                     <div> 
                         <input type="checkbox" id="adreement" name="adreement">
@@ -199,38 +192,40 @@
 
 
 
-             <div class="flight__schedule" style="display: none;">
-              <h4>
-                Расписание полетов
-              </h4>
-              <p>Для вашего удобства мы разработали график полетов
-                с вылетами из Москвы и Санкт-Петербурга. Вы также можете
-                запросить индивидуальный полет. 
-              </p>
-    
-
-              <table border="1" width="600" style="display: none">
-                <tr>
-                  <th>№ Рейса</th>
-                  <th>Откуда-куда</th>
-                  <th>Время вылета</th>
-                  <th>Время прилета</th>
-                </tr>
-                <tr>
-                  <td>1635</td>
-                  <td>VKO-MOON</td>
-                  <td>00:45</td>
-                  <td>23:15</td>
-                </tr>
-                <tr>
-                  <td>70200</td>
-                  <td>LED-MOON</td>
-                  <td>17:30</td>
-                  <td>16:20</td>
-                </tr>
-                
-              </table>
-         </div>   
+            <div class="flight__schedule">
+              <div class="wrapper flight__wrapper">
+               <div class="flight__menu">
+                  <h4>
+                    Расписание полетов
+                  </h4>
+                  <p>Для вашего удобства мы разработали график полетов
+                    с вылетами из Москвы и Санкт-Петербурга. Вы также можете
+                    запросить индивидуальный полет. 
+                  </p>        
+               </div>
+               <div class="table__flight">
+                  <div class="table__row table__header">
+                    <div>№ Рейса</div>
+                    <div>Откуда-куда</div>
+                    <div>Время вылета</div>
+                    <div>Время прилета</div>
+                  </div>
+                  <div class="table__row">
+                    <div>1635</div>
+                    <div>VKO-MOON</div>
+                    <div>00:45</div>
+                    <div>23:15</div>
+                  </div>
+                  <div class="table__row">
+                    <div>70200</div>
+                    <div>LED-MOON</div>
+                    <div>17:30</div>
+                    <div>16:20</div>
+                  </div>
+                  
+                </div>
+              
+              </div>   
 
         
 

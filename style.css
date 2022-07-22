@@ -50,11 +50,11 @@ header {
 }
 
 .site__menu a {
-  transition: 1s;
+  
 }
 
 .site__menu a:hover {
-  transform: scale(1.5);
+  transform: scale(1.2);
   
 }
 
@@ -96,15 +96,29 @@ header {
    color: white;
    display: flex;
    justify-content: space-between;
+   cursor: pointer;
+   transition: 0.3s;
  }
  
  .btn__black  {
   background: #222222;  
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn__black:hover {
+  background:rgba(48, 48, 48, 0.795);
 }
 
 .btn__yellow  {
   background: #FFCB06;
-  color: black;  
+  color: black; 
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn__yellow:hover {
+  background: rgb(188, 247, 71);
+  
 }
 
 .advenchery {
@@ -119,7 +133,7 @@ header {
 
 }
 .advenchery__list li {
-  max-width: 170px;
+  max-width: 170px;gi
   display: flex;
   flex-direction: column;
   gap: 34px;
@@ -327,3 +341,4 @@ footer {
   max-width: 162px;
   color:#888888;
 }
+

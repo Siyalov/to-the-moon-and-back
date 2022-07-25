@@ -116,29 +116,29 @@ header {
   cursor: pointer;
   transition: 0.3s;
 }
+
 .btn__yellow:hover {
-  background: rgb(188, 247, 71);
-  
+  background: rgb(188, 247, 71);  
 }
 
 .advenchery {
   background-color: black;
   color: white;
   padding: 85px 0;
-
 }
+
 .advenchery__list, .up__row, .down__row {
   display: flex;
   justify-content: space-between;
-
 }
+
 .advenchery__list li {
-  max-width: 170px;gi
+  max-width: 170px; 
   display: flex;
   flex-direction: column;
   gap: 34px;
-
 }
+
 .advenchery__list img {
   height: 68px;
   width: 60px;
@@ -274,8 +274,7 @@ form {
 }
 
 .table__row div {
-  min-width: 110px;
-  
+  min-width: 110px;  
 }
 
 .table__row:not(:first-child) {
@@ -289,7 +288,6 @@ footer {
 }
 
 .footer__wrapper {
-
   display: flex;
   justify-content: space-between;
 }
@@ -297,9 +295,8 @@ footer {
 .footer__top {
   width: 100%;
   display: flex;
-  
-
 }
+
 .logo {
   display: flex;
   align-items: center;
@@ -313,32 +310,37 @@ footer {
 }
 
 .footer__block {
-
   display: flex;
   flex-direction: column;
   gap: 60px;
 }
-.footer__links {
 
+.footer__links {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
-.footer__links a {
 
+.footer__links a {
   color:#888888;
 }
 
 .footer__logo {
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;  
 }
 
 .footer__copyright {
-
   max-width: 162px;
   color:#888888;
 }
 
+
+.logo__image:hover {
+  transform: scale(1.2);
+}
+
+.advenchery__image:hover {
+  transform: scale(0.8);
+}

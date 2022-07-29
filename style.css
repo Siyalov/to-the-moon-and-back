@@ -50,7 +50,7 @@ header {
 }
 
 .site__menu a {
-  
+  transition: ;
 }
 
 .site__menu a:hover {
@@ -98,6 +98,7 @@ header {
    justify-content: space-between;
    cursor: pointer;
    transition: 0.3s;
+
  }
  
  .btn__black  {
@@ -109,6 +110,10 @@ header {
 .btn__black:hover {
   background:rgba(48, 48, 48, 0.795);
 }
+
+/* .btn:hover .btn>img {
+  transform: translateX(20px);
+} */
 
 .btn__yellow  {
   background: #FFCB06;
@@ -130,6 +135,7 @@ header {
 .advenchery__list, .up__row, .down__row {
   display: flex;
   justify-content: space-between;
+  transition: transform 2s
 }
 
 .advenchery__list li {
@@ -137,6 +143,7 @@ header {
   display: flex;
   flex-direction: column;
   gap: 34px;
+  
 }
 
 .advenchery__list img {
@@ -336,7 +343,12 @@ footer {
   color:#888888;
 }
 
+.logo__image, .advenchery__image, .skew, .skew-full{
 
+  transition: 0.5s  transform;
+  
+}
+ 
 .logo__image:hover {
   transform: scale(1.2);
 }
@@ -344,3 +356,12 @@ footer {
 .advenchery__image:hover {
   transform: scale(0.8);
 }
+
+.skew:hover {
+transform: skewX(-20deg);
+}
+
+.skew-full:hover {
+  transform: rotateY(360deg);
+  }
+
